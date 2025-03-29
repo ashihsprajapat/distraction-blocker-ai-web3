@@ -1,0 +1,27 @@
+{
+  "name": "distraction-blocker-ai-web3",
+  "version": "1.0.0",
+  "description": "AI-powered distraction blocker with Web3 rewards",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../chrome-extension && npm install",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "build:extension": "cd chrome-extension && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "productivity",
+    "ai",
+    "web3",
+    "blockchain",
+    "focus",
+    "chrome-extension"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
