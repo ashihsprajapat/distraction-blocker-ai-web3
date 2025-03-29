@@ -1,0 +1,11 @@
+{
+  "name": "distraction-blocker-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for blocking distracting websites",
+  "scripts": {
+    "generate-icons": "node generate-icons.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.32.1"
+  }
+} 

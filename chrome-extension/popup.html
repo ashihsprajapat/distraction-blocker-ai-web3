@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Distraction Blocker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Distraction Blocker</h2>
+      <div id="status" class="status inactive">Inactive</div>
+    </div>
+    
+    <div class="blocked-sites">
+      <h3>Blocked Sites</h3>
+      <div id="blockedSitesList"></div>
+    </div>
+
+    <div class="add-site">
+      <input type="text" id="newSite" placeholder="Enter website URL">
+      <button id="addSite">Add</button>
+    </div>
+
+    <button id="toggleBlocking">Enable Blocking</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
